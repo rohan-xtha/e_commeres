@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 class AppColors {
   AppColors._();
 
-  static const Color background = Color(0xFFF5F6FA);
+  static const Color background = Color(0xFFF0F7F6);
   static const Color surface = Colors.white;
   static const Color textDark = Color(0xFF111827);
   static const Color textMuted = Color(0xFF6B7280);
@@ -17,7 +17,7 @@ class AppTheme {
 
   static ThemeData get light {
     final scheme =
-        ColorScheme.fromSeed(seedColor: const Color(0xFF4F46E5));
+        ColorScheme.fromSeed(seedColor: const Color(0xFF0D9488));
 
     return ThemeData(
       useMaterial3: true,

@@ -51,11 +51,14 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       appBar: AppBar(
         titleSpacing: 16,
-        title: const Row(
+        title: Row(
           children: [
-            Icon(Icons.shopping_bag_rounded, color: Color(0xFF4F46E5)),
-            SizedBox(width: 8),
-            Text('MyShop'),
+            Icon(
+              Icons.shopping_bag_rounded,
+              color: Theme.of(context).colorScheme.primary,
+            ),
+            const SizedBox(width: 8),
+            const Text('MyShop'),
           ],
         ),
         actions: [
